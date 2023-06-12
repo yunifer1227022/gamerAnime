@@ -1,9 +1,13 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import filterComponent from '../components/filterComponent.vue';
+import allAnimeComponent from '../components/allAnimeComponent.vue';
+
+
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <filterComponent />
+    <allAnimeComponent /> 
   </main>
 </template>
